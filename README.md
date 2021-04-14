@@ -180,6 +180,7 @@ public class FractionalKnapsack {
 ## 결과
 
 ![결과](https://user-images.githubusercontent.com/80513292/114697986-868d7600-9d59-11eb-9d88-a6254649d07a.png)
+
 ## **시간복잡도**
 
 > 1. n개의 물건 각각의 단위 무게 당 가치를 계산하는 데는 O(n) 시간이 걸린다.
