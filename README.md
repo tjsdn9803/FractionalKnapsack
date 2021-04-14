@@ -59,7 +59,7 @@ class Item implements Comparable<Item>{
 
 ```
 
-`compareTo`는 무게 당 가격순 정렬의 기준을 정하는 메소드이다.
+`compareTo`는 무게 당 가격순 정렬의 기준을 정하는 메소드이다. [\br]
 선택한 **`Item o`의 무게 당 가격**과 **Item 클래스에 저장된 무게 당 가격**을 비교하여 
 
 **O**의 무게 당 가격이 크거나, 전체 가격이 더 크면 **1**,
