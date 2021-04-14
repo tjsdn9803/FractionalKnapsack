@@ -179,4 +179,4 @@ public class FractionalKnapsack {
 
 ## 결과
 
-![결과](https://user-images.githubusercontent.com/80513292/114574263-11b43080-9cb4-11eb-8092-49d40dfc23f5.png)
+![결과](https://user-images.githubusercontent.com/80513292/114697986-868d7600-9d59-11eb-9d88-a6254649d07a.png)
