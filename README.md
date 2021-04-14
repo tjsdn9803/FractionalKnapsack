@@ -4,9 +4,9 @@
 ---
 #### Mission: 부분 배낭 알고리즘 구현하기
 #### 목차
-1. [Item](#1.-Item)
-2. [FractionalKnapsack](#2.-FractionalKnapsack)
-3. [Main](#3.-Main)
+1. [Item](#1-Item)
+2. [FractionalKnapsack](#2-FractionalKnapsack)
+3. [Main](#3-Main)
 
 ---
 
@@ -59,6 +59,7 @@ class Item implements Comparable<Item>{
 
 ```
 
+`compareTo`는 무게 당 가격순 정렬의 기준을 정하는 메소드이다.
 선택한 **`Item o`의 무게 당 가격**과 **Item 클래스에 저장된 무게 당 가격**을 비교하여 
 
 **O**의 무게 당 가격이 크거나, 전체 가격이 더 크면 **1**,
@@ -67,7 +68,7 @@ class Item implements Comparable<Item>{
 
 ​		무게 당 가격이 작으면 **-1** 을 리턴한다.
 
-& compareTo가 무슨 기능을 하는지 모르겠어요
+
 
 ## 2. FractionalKnapsack
 
@@ -120,7 +121,9 @@ public class FractionalKnapsack {
   
 ```
 
-& 이부분도 잘 모르겠습니다 위에 while 문이랑 같은 역할처럼 보여요....
+물건의 전부가 배낭의 현재 용량보다 커서 전부 들어가지 못한다면
+물건의 무게를 남은 가방의 공간만큼 나누어 넣는다.
+가치 또한 나눠진 가치를 추가한다.
 
 
 
